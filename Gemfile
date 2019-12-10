@@ -68,7 +68,9 @@ group :development, :test do
 end
 
 gem 'bootstrap', '~> 4.4.1'
-gem 'popper_js', '~> 1.14.5'
+
+gem 'simple_form'
+gem 'devise'
 
 
 
