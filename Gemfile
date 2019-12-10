@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
-gem 'jquery-rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4'
@@ -67,9 +67,10 @@ group :development, :test do
   gem "factory_bot_rails"
 end
 
-gem 'popper_js', '~> 1.14.5'
-gem 'bootstrap', '~> 4.3.1'
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
